@@ -3,13 +3,16 @@
 body {
   box-sizing: border-box;
   margin: 5px auto;
+  margin-bottom: 10px;
   font-family: "OCR-A BT", sans-serif;
   display: flex;
+  height: 100vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background: url(../images/image1.jpg);
   background-size: cover;
+  overflow: hidden;
 }
 
 h2 {
@@ -139,7 +142,7 @@ footer span {
 /* socials */
 
 .socials div {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .socials a {
   color: #fff;
@@ -147,6 +150,7 @@ footer span {
 .socials i {
   padding: 0 25px;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 .socials i:hover {
   color: blue;
@@ -218,9 +222,9 @@ footer span {
   body {
     background-image: url(../images/image2.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 650px;
+    height: 100vh;
     overflow: hidden;
+    justify-content: center;
   }
   body h2 {
     color: blue;
